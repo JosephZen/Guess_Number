@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cursor.css">
+    <script src="js/cursor.js" defer></script>
+    <script src="js/guess.js"></script>
+    <script>
+        const random = 300;
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <input type="text" id="guessInput" placeholder="Enter your guess">
+        <button id="guessButton">Guess</button>
+        <p id="trailLeft">Trail Left: <span id="trailCount">5</span></p>
+        <p id="result"></p>
+    </div>
+    <div id="customCursor"></div>
+</body>
+</html>
